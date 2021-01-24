@@ -4,6 +4,7 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: white;
+  font-family: 'Krub', sans-serif;
 }
 
 h3 {
@@ -25,9 +26,6 @@ h3 {
   position: absolute;
 }
 
-.bgimg-3 {
-  position: relative;
-}
 
 /* Navbar */
 .nav {
@@ -61,8 +59,6 @@ h3 {
   position: relative;
   background-color: #1e2022;
   text-align: center;
-  padding: 50px 80px;
-  text-align: justify;
   height: 60vh;
 }
 
@@ -70,18 +66,23 @@ h3 {
   position: relative;
   text-align: center;
   padding: 50px 80px;
-  text-align: justify;
   height: 100vh;
+}
+
+.carousel-item {
+  padding: 200px;
 }
 
 #layer-1 {
   background-color: #1e2022;
   z-index: 1;
+  padding: 200px;
 }
 
 #layer-3 {
   background-color: #374045;
     z-index: 1;
+  padding: 200px;
 }
 
 #layer-4, .bg-img {
@@ -96,6 +97,8 @@ h3 {
 #layer-7 {
   background-color: #99a8b2;
     z-index: 1;
+    padding: 100px 200px;
+    height: 40vh;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
