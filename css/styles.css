@@ -1,10 +1,12 @@
 body, html {
   background-color: black;
-  height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
   color: white;
   font-family: 'Krub', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 h1 {
@@ -49,8 +51,6 @@ i:hover {
   padding: 10px 0;
 }
 
-
-
 .invis-layer {
   position: absolute;
   left: 0;
@@ -88,10 +88,6 @@ i:hover {
   top: 420px;
 }
 
-#layer-2 {
-  padding-top: 100px;
-}
-
 .carousel-item {
   padding: 100px 200px;
 }
@@ -102,14 +98,14 @@ i:hover {
   padding-top: 100px;
 }
 
+#layer-2 {
+  padding-top: 100px;
+}
+
 #layer-3 {
   background-color: #374045;
   z-index: 1;
   padding-top: 100px;
-}
-
-#layer-4, .bg-img {
-  height: 100%;
 }
 
 #layer-5 {
@@ -136,7 +132,6 @@ i:hover {
   font-size: 1.5rem;
   letter-spacing: 10px;
 }
-
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
