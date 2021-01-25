@@ -88,7 +88,7 @@ h1 {
 }
 
 .carousel-item {
-  padding: 100px;
+  padding: 100px 200px;
 }
 
 #layer-1 {
@@ -123,6 +123,17 @@ h1 {
   z-index: 1;
   height: 40vh;
   padding-top: 100px;
+}
+
+.contact-icon {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 10px;
+  transition: transform .2s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.4);
 }
 
 /* Turn off parallax scrolling for tablets and phones */
